@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFF99"
+    tools:context=".Car">
+
+    <Button
+        android:id="@+id/rent"
+        android:layout_width="255dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="243dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginStart="65dp"
+        android:text="Rental"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/self"
+        android:layout_width="255dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="62dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="142dp"
+        android:text="Self Drive"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/rent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</android.support.constraint.ConstraintLayout>

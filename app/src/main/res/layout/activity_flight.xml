@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFF99"
+    tools:context=".Flight">
+
+    <TextView
+        android:id="@+id/ret"
+        android:layout_width="277dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="24dp"
+        android:layout_marginEnd="62dp"
+        android:layout_marginStart="45dp"
+        android:text="Return"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/retFrom"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/dep"
+        android:layout_width="277dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="22dp"
+        android:layout_marginEnd="53dp"
+        android:layout_marginStart="54dp"
+        android:layout_marginTop="16dp"
+        android:text="Departure"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/depFrom"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/retTo"
+        android:layout_width="356dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="84dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginStart="14dp"
+        android:ems="10"
+        android:hint="To(Airport)"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/depTo"
+        android:layout_width="356dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="33dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginStart="14dp"
+        android:ems="10"
+        android:hint="To(Airport)"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/ret"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/retFrom"
+        android:layout_width="356dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="9dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginStart="14dp"
+        android:ems="10"
+        android:hint="From(Airport)"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/rFNo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/depFrom"
+        android:layout_width="356dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="7dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginStart="14dp"
+        android:ems="10"
+        android:hint="From(Airport)"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/dFNo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/rFNo"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="9dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginStart="16dp"
+        android:ems="10"
+        android:hint="Flight Number"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/retTo"
+        app:layout_constraintEnd_toStartOf="@+id/rTime"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/dFNo"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="7dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginStart="16dp"
+        android:ems="10"
+        android:hint="Flight Number"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/depTo"
+        app:layout_constraintEnd_toStartOf="@+id/dTime"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/rTime"
+        android:layout_width="147dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="9dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="9dp"
+        android:ems="10"
+        android:hint="Time(24 Hrs.)"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/retTo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/rFNo"
+        app:layout_constraintTop_toBottomOf="@+id/retFrom" />
+
+    <EditText
+        android:id="@+id/dTime"
+        android:layout_width="147dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="7dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="7dp"
+        android:ems="10"
+        android:hint="Time(24 Hrs.)"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/depTo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/depFrom" />
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="17dp"
+        android:layout_marginEnd="148dp"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="18dp"
+        android:text="Save"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/retTo" />
+
+</android.support.constraint.ConstraintLayout>

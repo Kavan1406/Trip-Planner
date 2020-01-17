@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFF99"
+    tools:context=".tMode">
+
+    <Button
+        android:id="@+id/train"
+        android:layout_width="277dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="70dp"
+        android:layout_marginEnd="53dp"
+        android:layout_marginStart="54dp"
+        android:text="Train"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/car"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/flight"
+        android:layout_width="277dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="67dp"
+        android:layout_marginEnd="53dp"
+        android:layout_marginStart="54dp"
+        android:layout_marginTop="96dp"
+        android:text="Flight"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/train"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/car"
+        android:layout_width="277dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="169dp"
+        android:layout_marginEnd="53dp"
+        android:layout_marginStart="54dp"
+        android:text="Car"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</android.support.constraint.ConstraintLayout>

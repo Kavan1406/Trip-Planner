@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFF99"
+    tools:context=".loadTD">
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="19dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginStart="25dp"
+        android:text="Train No.:"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView27"
+        app:layout_constraintEnd_toStartOf="@+id/loadTNo"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="18dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginStart="25dp"
+        android:text="Time:"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView26"
+        app:layout_constraintEnd_toStartOf="@+id/loadT"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="17dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginStart="25dp"
+        android:text="Class:"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView22"
+        app:layout_constraintEnd_toStartOf="@+id/loadC"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="41dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginStart="25dp"
+        android:text="Seat No.:"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/loadDSN"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="19dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginStart="25dp"
+        android:text="Coach No.:"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView24"
+        app:layout_constraintEnd_toStartOf="@+id/loadCN"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="14dp"
+        android:layout_marginEnd="42dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="44dp"
+        android:text="Train Name:"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/loadTN"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/loadT"
+        android:layout_width="185dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="18dp"
+        android:layout_marginEnd="5dp"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/loadC"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/loadC"
+        android:layout_width="185dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="17dp"
+        android:layout_marginEnd="5dp"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/loadCN"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/loadDSN"
+        android:layout_width="185dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="41dp"
+        android:layout_marginEnd="5dp"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/loadCN"
+        android:layout_width="185dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="19dp"
+        android:layout_marginEnd="5dp"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/loadDSN"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/loadTNo"
+        android:layout_width="185dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="19dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginTop="45dp"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/loadT"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/loadTN" />
+
+    <TextView
+        android:id="@+id/loadTN"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="45dp"
+        android:layout_marginEnd="42dp"
+        android:layout_marginStart="42dp"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView14"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</android.support.constraint.ConstraintLayout>

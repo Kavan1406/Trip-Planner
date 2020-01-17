@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="it.sgp.tripplanner">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".billSplitter" />
+        <activity android:name=".Per3" />
+        <activity android:name=".Per4" />
+        <activity android:name=".loadTrip" />
+        <activity android:name=".tripPlanner" />
+        <activity android:name=".per5" />
+        <activity android:name=".newTrip" />
+        <activity android:name=".Duration" />
+        <activity android:name=".tMode" />
+        <activity android:name=".Flight" />
+        <activity android:name=".Train" />
+        <activity android:name=".Car" />
+        <activity android:name=".ThingsToDo" />
+        <activity android:name=".hotelBookings" />
+        <activity android:name=".loadHotel" />
+        <activity android:name=".loadTTD" />
+        <activity android:name=".loadFlight" />
+        <activity android:name=".loadTrain" />
+        <activity android:name=".loadCar" />
+        <activity android:name=".loadTD" />
+        <activity android:name=".loadTR"></activity>
+    </application>
+
+</manifest>

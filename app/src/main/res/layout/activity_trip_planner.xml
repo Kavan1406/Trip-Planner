@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFF99"
+    tools:context=".tripPlanner">
+
+    <Button
+        android:id="@+id/newTrip"
+        android:layout_width="277dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="62dp"
+        android:layout_marginEnd="53dp"
+        android:layout_marginStart="54dp"
+        android:layout_marginTop="169dp"
+        android:text="Plan A Trip!"
+        app:layout_constraintBottom_toTopOf="@+id/existing"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/existing"
+        android:layout_width="277dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="216dp"
+        android:layout_marginEnd="53dp"
+        android:layout_marginStart="54dp"
+        android:text="View Existing Trip"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</android.support.constraint.ConstraintLayout>
