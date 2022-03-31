@@ -1,0 +1,11 @@
+﻿Sample,Type of Water (F/M/OS),Latitude,Longitude,pH,Temperature (C),DO (mg/L),COD(mg/ml),Conductivity(uS/cm),TDS(mg/L),BOD(mg/L),Viscocity,Phosphate(ppm),Silicon(ppm),Cobalt(ppm),Iron(pmm),Potassium(ppm),Copper(ppm),Sodium(ppm),Zinc(ppm),Chromium(ppm),Arsenic(ppm),Lead(ppm),Mercury(ppm),Nickle(ppm),Cadmimum(ppm),Selenium(ppm),Boron(ppm),Manganese(ppm),Antimony(ppm),Alluminium(ppm),Barium(ppm),Calcium(ppm),Molybdenum(ppm),Titanium(ppm),Validium(ppm),Lithium(ppm),Number of Species(WBC +100ul),Total number observed in each species,Species Richness,Shannon index,Evenness,Simpsons Index,Berger-Park
+ONGC(AHEMDABAD)(Treated),OS,22.6985°N,72.7954°E,7.36,31°C,8.24,195.69,2.58 mS/cm,1214,7.02,,0.415,10.935,0.003,3.239,2.791,-,373.903,-,,,,,,,,,,,,,,,,,,"A1,A2,A3,A4","4,4,3,1=11",4,1.29,0.928,0.23,33.30%
+ONGC(HAJIRA)A1,OS,21.143° N,72.73°E,8.1,29°C,0.76,180.34,1037,516,24.7,,0.233,5.849,-,0.072,14.26,-,118.294,-,,,,,,,,,,,,,,,,,,-,-,,-,-,-,
+ONGC(HAJIRA)A2,OS,21.143° N,72.73°E,7.65,29°C,4.74,162.45,29.6mS,17.41g/L,16.74,,0.233,4.501,-,0.177,,-,-,,,,,,,,,,,,,,,,,,,-,-,,-,-,-,
+ONGC(HAJIRA)A3,OS,21.143° N,72.73°E,7.65,29°C,1.29,41.543,19.65 mS,15.64 g/L,27.61,,,,,,,,,,,,,,,,,,,,,,,,,,,A1,3=3,3,-,-,1,100%
+ONGC(HAJIRA)A4,OS,21.143° N,72.73°E,7.44,30°C,4.68,174.23,30.4mS,18.38g/L,21.96,,,,,,,,,,,,,,,,,,,,,,,,,,,-,-,,-,-,-,
+ONGC(HAJIRA)A5,OS,21.143° N,72.73°E,7.62,29°C,0.56,194.42,10.43 mS,5.60g/L,27.8,,6.667,14.485,-,0.03,66.712,-,1589.603,-,,,,,,,,,,,,,,,,,,-,-,,-,,-,
+ALANG SOSIYA,OS,21.2439°N,72.1149°E,7.43,32°C,7.35,47.798,51.6 mS/cm,29.6 g/L,20.82,,-,0.106,0.061,0.028,537.123,-,13270,-,0.136,-,-,-,-,-,-,0.729,-,0.121,1.587,0.038,14.109,-,-,0.583,0.209,-,-,,-,-,-,
+ONGC ANKLESHWAR-1,OS,21.6311°N,72.9996°E,6.91,37°C,1.45,331.74,1895,879,21.04,,3.876,1.273,0.057,-,24.03,-,408.524,0.013,0.048,-,-,-,0.027,-,-,-,-,0.353,2.048,0.047,0.951,-,-,0.518,0.034,-,-,,-,-,-,
+ONGC ANKLESHWAR-2,OS,21.6311°N,72.9996°E,7.04,37°C,4.77,155.04,1172,512,18.84,,0.073,1.379,0.064,0.013,9.686,-,166.71,0.008,0.092,-,0.003,-,-,0.015,-,-,-,0.222,2.329,0.055,1.09,-,-,0.448,0.17,-,-,,-,-,-,
+KHAMBHAT(CHEMICAL RELEASE),CR,22.2137° N,72.353°E,7.85,28°C,7.28,44.152,754,365,24.9,,,,,,,,,,,,,,,,,,,,,,,,,,,"A1,A2,A3","8,5,5=18",3,1.07,0.976,0.31,44.40%
